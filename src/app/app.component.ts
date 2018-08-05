@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-sample';
+  address = {street: 'Musterstr 1', city: 'Musterstadt'};
+
+  changeAddress() {
+    this.address = {
+      street: 'new street', city: 'new city'
+    };
+  }
 }
