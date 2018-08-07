@@ -7,10 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   address = {street: 'Musterstr 1', city: 'Musterstadt'};
+  texts = ['click me'];
 
   changeAddress() {
     this.address = {
       street: 'new street', city: 'new city'
     };
+  }
+
+  clickedMe() {
+    this.texts = this.texts.concat(['one more time']);
   }
 }

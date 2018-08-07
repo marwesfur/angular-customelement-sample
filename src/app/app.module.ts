@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AngularButtonComponent } from './angular-button/angular-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AngularButtonComponent
   ],
   imports: [
     BrowserModule
