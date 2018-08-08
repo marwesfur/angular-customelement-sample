@@ -25,9 +25,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "../hyperhtml-sample-components/src/bundle.js"
-            ]
+            "scripts": []
+
           },
           "configurations": {
             "production": {

@@ -1,6 +1,6 @@
 <h1>This is an Angular component, containing a Address element</h1>
 
-<my-address [address]="address">
+<my-address [address]="address" (change)="onChange($event)">
   <app-angular-button *ngFor="let text of texts"
           (myClick)="clickedMe()" [text]="text"></app-angular-button>
 </my-address>

@@ -4,6 +4,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AngularButtonComponent } from './angular-button/angular-button.component';
 
+import '../../../hyperhtml-sample-components/src/bundle';
+
 @NgModule({
   declarations: [
     AppComponent,
