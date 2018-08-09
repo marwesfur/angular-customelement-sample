@@ -8,3 +8,8 @@
 <br>
 
 <button (click)="changeAddress()">New Address</button>
+
+
+<x-slider (slideChange)="onSlideChange($event)">
+  <x-slide *ngFor="let text of texts">{{text}}</x-slide>
+</x-slider>

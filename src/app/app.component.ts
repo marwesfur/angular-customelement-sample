@@ -18,4 +18,8 @@ export class AppComponent {
   clickedMe() {
     this.texts = this.texts.concat(['one more time']);
   }
+
+  onSlideChange(e) {
+    alert(`Slide selected: ${e.detail}`);
+  }
 }
